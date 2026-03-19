@@ -32,16 +32,16 @@ Edit **App.js** if you want to change how pages route to one another, e.g. after
 ```
 starter-code
 │   README.md
-│   App.js    		// main JavaScript file
+│   App.js    		         // main JavaScript file
 │
-└───public 		// this where all of our content is stored
-   │   index.html       // The initial view for our webpage
-   │   t1.html          // Weather Application
+└───public 		            // this where all of our content is stored
+   │   index.html        // The initial view for our webpage
+   │   t1.html           // Weather Application
    │
    └───css
-   │  	│   main.css    // stylesheet for custom CSS
+   │  	│   main.css      // stylesheet for custom CSS
    │   
-   └───images	         //images used by our website are stored here
+   └───images	           //images used by our website are stored here
    	│   bunny.jpg 	
    	└─── ...
 ```
