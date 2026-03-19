@@ -36,7 +36,7 @@ starter-code
 │
 └───public 		// this where all of our content is stored
    │   index.html       // The initial view for our webpage
-   │   t1.html
+   │   t1.html          // Weather Application
    │
    └───css
    │  	│   main.css    // stylesheet for custom CSS
