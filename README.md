@@ -36,7 +36,7 @@ starter-code
 │
 └───public 		// this where all of our content is stored
    │   index.html       // The initial view for our webpage
-   │   t5.html
+   │   t1.html
    │
    └───css
    │  	│   main.css    // stylesheet for custom CSS
