@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <!-- let's include the css file for bootstrap, then our custom css -->
+  <link rel="stylesheet" type="text/css" href="/vendors/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  
+  <!-- let's also include these jquery scripts. -->
+  <script src="/vendors/jquery/jquery-3.3.1.min.js"></script>
+  <script src="/vendors/jquery-ui/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <a href="/" class="btn btn-light float-right">
+              Back
+          </a>
+        
+      </div>
+
+      <p> Location: Yale University, New Haven, CT. The current time is: <span id="time"> </span></p>
+      
+      <div id="myData"></div>
+  </div>
+  
+  <!-- Your weather forecast here! -->
+
+  <script type="text/javascript">
+	//your solution here
+  fetch('https://api.openweathermap.org/data/2.5/forecast?lat=41.3163&lon=72.9223&appid=&units=imperial')
+    .then(res => {
+      if (res.ok){
+          return res.json();
+      } else {
+        console.log("error");
+      }
+    })
+    .then(data => {
+    console.log(data);
+    appendData(data.list)
+  })
+    .catch(error => console.log('Error'));
+//https://howtocreateapps.com/fetch-and-display-json-html-javascript/
+    function appendData(data) {
+      var datetime = new Date().toLocaleTimeString();
+      console.log(datetime);
+      document.getElementById("time").textContent = datetime;
+      var mainContainer = document.getElementById("myData");
+        for (var i = 0; i < 8; i++) {
+          var timestamp = data[i].dt
+          var date = new Date(timestamp*1000).toLocaleTimeString();
+          var div = document.createElement("div");
+          div.innerHTML =  'Time: ' + date + ' Weather: ' + data[i].weather[0]["description"] + ' Temperature (in Fahrenheit): ' + data[i].main["temp"] + ' Wind Speed (in MPH): ' + data[i].wind["speed"];
+          mainContainer.appendChild(div);
+          }
+      }
+</script>
+</body>
+</html>
