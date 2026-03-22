@@ -7,7 +7,7 @@ We're going to be using a command-line interface.
  helpful.)
 ### 1. [Clone this repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your computer.
 Once you've got it, [navigate to the directory](https://www.macworld.com/article/221277/command-line-navigating-files-folders-mac-terminal.html)
-(ex: ``$ cd starter-code``)
+(ex: ``$ cd programming-practice``)
 ### 2. [Make sure you have Node and npm installed.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
 
 Check to see if you can run  ``$ node -v`` and ``$ npm -v`` 
