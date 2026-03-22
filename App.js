@@ -1,6 +1,4 @@
 /*
-PROJECT 2
-Template code for CS160 Summer 2022
 Prepared by Shm Garanganao Almeda & Hridhay Suresh
 
 Code referenced from: 
