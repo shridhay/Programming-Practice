@@ -1,13 +1,11 @@
 /*
 Prepared by Shm Garanganao Almeda & Hridhay Suresh
-
 Code referenced from: 
 CS160 Summer 2021
 https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module"
 https://expressjs.com/en/starter/hello-world.html
 https://codeforgeek.com/render-html-file-expressjs/
 https://stackoverflow.com/questions/32257736/app-use-express-serve-multiple-html
-
 */
 
 //Node modules to *require*
