@@ -39,7 +39,7 @@ programming-practice
    │   t1.html           // Weather Application
    │
    └───css
-   │  	│   main.css      // stylesheet for custom CSS
+      	│   main.css      // stylesheet for custom CSS
 ```
 
 Alternatively: Delete everything and start over if you want to learn how to set this up on your own, or in your own way. Here are the pages I referenced, from which you can learn everything you need to set up this code on your own:
