@@ -31,15 +31,15 @@ Edit the **HTML files** and the **CSS stylesheet** to make them your own!
 Edit **App.js** if you want to change how pages route to one another, e.g. after adding new pages or renaming your HTML files. 
 ```
 programming-practice
-│   README.md
-│   App.js    		         // main JavaScript file
+│- README.md
+│- App.js    		         // main JavaScript file
 │
 └───public 		            // this where all of our content is stored
-   │   index.html        // The initial view for our webpage
-   │   t1.html           // Weather Application
+   │-  index.html        // The initial view for our webpage
+   │-  t1.html           // Weather Application
    │
    └───css
-      	│   main.css      // stylesheet for custom CSS
+      	│-  main.css      // stylesheet for custom CSS
 ```
 
 Alternatively: Delete everything and start over if you want to learn how to set this up on your own, or in your own way. Here are the pages I referenced, from which you can learn everything you need to set up this code on your own:
