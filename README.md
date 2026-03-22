@@ -30,7 +30,7 @@ Edit the **HTML files** and the **CSS stylesheet** to make them your own!
 
 Edit **App.js** if you want to change how pages route to one another, e.g. after adding new pages or renaming your HTML files. 
 ```
-starter-code
+programming-practice
 │   README.md
 │   App.js    		         // main JavaScript file
 │
@@ -40,10 +40,6 @@ starter-code
    │
    └───css
    │  	│   main.css      // stylesheet for custom CSS
-   │   
-   └───images	           //images used by our website are stored here
-   	│   bunny.jpg 	
-   	└─── ...
 ```
 
 Alternatively: Delete everything and start over if you want to learn how to set this up on your own, or in your own way. Here are the pages I referenced, from which you can learn everything you need to set up this code on your own:
