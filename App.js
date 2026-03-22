@@ -30,8 +30,6 @@ app.get("/", function (req, res) {
 // -- URL NAVIGATION -- //
 //depending on what url extension the user navigates to, send them the respective html file. 
 
-/** You can add your own URLS here **/
-
 app.get('/t1', function (req, res) {
     res.sendFile(publicPath + '/t1.html');
 });
