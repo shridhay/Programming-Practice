@@ -8,10 +8,6 @@ https://expressjs.com/en/starter/hello-world.html
 https://codeforgeek.com/render-html-file-expressjs/
 https://stackoverflow.com/questions/32257736/app-use-express-serve-multiple-html
 
-Photo Credits:
-Bunny by Satyabratasm on Unsplash <https://unsplash.com/photos/u_kMWN-BWyU>
-*/
-
 //Node modules to *require*
 //if these cause errors, be sure you've installed them, ex: 'npm install express'
 const express = require('express');
