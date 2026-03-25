@@ -30,6 +30,7 @@
   <!-- Your weather forecast here! -->
 
   <script type="text/javascript">
+	// Replace the {API KEY} with your own API Key in the fetch request below:
   fetch('https://api.openweathermap.org/data/2.5/forecast?lat=41.3163&lon=-72.9223&appid={API KEY}&units=imperial')
     .then(res => {
       if (res.ok){
